@@ -1,2 +1,6 @@
+import pdf
+
 if __name__ == "__main__":
-    print('Done.')
+    pdf_file = pdf()
+    pdf_file.summarize()
+    pdf_file.write()
